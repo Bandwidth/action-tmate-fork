@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  schemaVersion: v1.0.0
+  name: action-tmate-fork-location
+  description: Links to additional entities in the action-tmate-fork repository.
+  annotations:
+    github.com/project-slug: Bandwidth/action-tmate-fork
+spec:
+  targets:
+    - ./component.yaml

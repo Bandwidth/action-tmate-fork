@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  schemaVersion: v1.0.0
+  name: action-tmate-fork
+  description: Bandwidth fork of mxschmitt/action-tmate. A GitHub Action for
+    interactively debugging CI workflows via SSH or web shell using tmate
+    sessions.
+  annotations:
+    github.com/project-slug: Bandwidth/action-tmate-fork
+  organization: BW
+  costCenter: Development - Software Infra
+spec:
+  type: GitHub Action
+  owner: github/band-swi
+  lifecycle: Available
